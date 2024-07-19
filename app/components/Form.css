@@ -1,0 +1,7 @@
+.form__step-circle{
+  @apply border border-white rounded-full w-8 h-8 flex justify-center items-center text-white
+}
+
+.form__step-circle_active{
+  @apply bg-white border border-white rounded-full w-8 h-8 flex justify-center items-center text-black
+}

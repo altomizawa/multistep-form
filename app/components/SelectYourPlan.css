@@ -1,0 +1,7 @@
+.selectyourplan__label{
+  @apply flex md:flex-col mt-4 w-full md:w-[12vw] p-4 rounded-lg gap-8 cursor-pointer
+}
+
+.selectyourplan__label>input:active{
+  @apply bg-red-800
+}
